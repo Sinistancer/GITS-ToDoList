@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50621
 File Encoding         : 65001
 
-Date: 2018-04-12 14:29:05
+Date: 2018-04-12 15:34:15
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -44,11 +44,9 @@ CREATE TABLE `todos` (
   `username` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
   `password` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of todos
 -- ----------------------------
 INSERT INTO `todos` VALUES ('1', 'Mohammad Iqbal', '5', 'bandung', '09:00:00', 'iqbal', '123456');
-INSERT INTO `todos` VALUES ('2', 'Andri AWet', '4', 'bandung', '10:00:00', 'iqbal', '123456');
-INSERT INTO `todos` VALUES ('4', 'Indra Pirmana', '99', 'bandung', '10:00:00', 'iqbal', '123456');
