@@ -12,7 +12,13 @@
 
 4. Untuk detail penggunaan aplikasi bisa lihat pada file DOKUMENTASI API DAN TATA CARA PENGGUNAAN.docx
 
-5. Untuk rote list yang digunakan 
+5. Untuk import database bisa menggunakan printah 
+
+	php artisan migrate
+	
+   Atau dapat menggunakan file todoapp.sql dan import ke database mysql
+
+6. Untuk rote list yang digunakan 
 	
 	Route List
 		
